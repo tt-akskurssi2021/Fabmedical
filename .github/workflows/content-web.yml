@@ -70,7 +70,6 @@ jobs:
          cd ./content-web/charts/web
          helm chart save . content-web:v${{ env.tag }}
          helm chart save . ${{ env.containerRegistry }}/helm/content-web:v${{ env.tag }}
-         echo "testing # list out saved charts
          helm chart list
        env:
          HELM_EXPERIMENTAL_OCI: 1
