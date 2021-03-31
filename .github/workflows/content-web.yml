@@ -57,7 +57,7 @@ jobs:
      - uses: actions/checkout@master
 
      - name: Helm Install
-      uses: azure/setup-helm@v1
+       uses: azure/setup-helm@v1
 
      - name: Helm Repo Add
        run: |
