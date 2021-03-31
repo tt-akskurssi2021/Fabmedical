@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: [LOGINSERVER]/content-web
+  repository: fabmedicaltt.azurecr.io/content-web
   pullPolicy: Always
 
 imagePullSecrets: []
